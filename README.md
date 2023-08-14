@@ -20,9 +20,13 @@ As long as your domain points to the server hosting the server daemon and port 2
 # Scripts
 
 `pmailcli.fetchmail.sh` - Fetch all new mail
+
 `pmailcli.mkindex.sh` - Create and send pmail
+
 `pmailcli.trust.sh` - Whitelist user (NECCESARY for receiving mail from that user)
+
 `pmailcli.clean.sh` - Clean unused uploaded file on your server to save on storage
+
 
 When sending mail, for every uploaded file you will be asked for a short description, this is strictly private and is used as a little note describing the file so you can judge later based on the note and filename whether you want to delete it or not after it has been sent to every user
 
