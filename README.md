@@ -21,7 +21,7 @@ As long as your domain points to the server hosting the server daemon and port 2
 
 `pmailcli.fetchmail.sh` - Fetch all new mail
 
-`pmailcli.mkindex.sh` - Create and send pmail
+`pmailcli.mkindex.sh [file_1] [file_2] ... [file_n]` - Create and send pmail, every arg which is a valid path to a file will render that file as an attachement
 
 `pmailcli.trust.sh` - Whitelist user (NECCESARY for receiving mail from that user)
 
